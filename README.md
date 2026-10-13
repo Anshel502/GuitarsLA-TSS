@@ -1,12 +1,11 @@
 # Sistemas-Abiertos-ts
-# GuitarsLA-TSS
 # GuitarLA-TS
 
 ## Vision General del Proyecto
 - **Proposito:** Aplicacion web e-commerce para una tienda de guitarras (GuitarLA). Resuelve la necesidad de explorar un catalogo de productos en tiempo real, gestionar un carrito de compras interactivo (agregar, incrementar, decrementar, eliminar e indicar el total a pagar) y mantener la informacion guardada en el navegador.
 - **Demostracion:** 
-  ![Demo de la aplicacion](./public/img/captura.png)
-- **Despliegue:** https://github.com/Anshel502/GuitarLA-TS.git
+  ![captura de la aplicacion](./public/img/captura.png)
+- **Despliegue:** https://github.com/Anshel502/GuitarLA-TSS.git
 
 ---
 
