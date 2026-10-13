@@ -1,0 +1,87 @@
+.header {
+	height: 200px;
+	min-height: 200px;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	display: flex;
+	align-items: center;
+	background-image: url('/img/header.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.carrito {
+	position: relative;
+}
+
+.carrito > img {
+	width: 2.25rem;
+	height: 2.25rem;
+	object-fit: contain;
+}
+
+#carrito {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	z-index: 10;
+	display: none;
+	width: min(32rem, calc(100vw - 2rem));
+	max-height: 70vh;
+	overflow: auto;
+	padding: 0.75rem !important;
+	font-size: 0.9rem;
+}
+
+.carrito:hover #carrito,
+.carrito:focus-within #carrito {
+	display: block;
+}
+
+#carrito td img {
+	width: 2rem;
+	height: 3.5rem;
+	object-fit: contain;
+}
+
+#carrito td:nth-child(4) {
+	white-space: nowrap;
+}
+
+#carrito .btn {
+	padding: 0.2rem 0.4rem;
+	font-size: 0.8rem;
+}
+
+#carrito .table {
+	margin-bottom: 0.5rem;
+	font-size: 0.85rem;
+}
+
+main.container-xl > h2 {
+	margin-bottom: 0;
+	color: #e69500;
+	font-size: 3.75rem;
+	font-weight: 800;
+	line-height: 1.1;
+}
+
+main.container-xl > .row.mt-5 {
+	margin-top: 1rem !important;
+}
+
+main .col-md-6.col-lg-4 .text-primary {
+	margin-bottom: 0.75rem;
+	color: #e69500 !important;
+	font-size: 2.75rem !important;
+	font-weight: 800;
+	line-height: 1;
+}
+
+main .col-md-6.col-lg-4 .btn-dark {
+	border-radius: 0;
+	font-weight: 700;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
